@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>headerlink}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main_header -->
+    <div class="conatiner-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                  <!-- left side div -->
+                  <div class="col-md-12 col-12 main_header_left align-items-center">
+                    <figure class='errimg'>
+                      <img src="image/404error.png" alt="404error" class="img-fluid" title="Error page">
+                    </figure>
+                      <p >Welcome to the Ashish tech world</p>
+                      <h1>{{errormsg}}</h1>
+                      <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>  
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    {{>footer}}
+  <!-- Footer -->
+</body>
+</html>
